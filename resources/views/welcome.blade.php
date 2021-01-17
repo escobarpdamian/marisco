@@ -82,7 +82,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     <div id="componente"></div>
-                    <script src="{{ asset('js/app.js') }}" ></script>
+                    <script src="{{asset('js/app.js')}}" ></script>
                 </div>
 
                 <div class="links">
