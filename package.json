@@ -24,7 +24,7 @@
     "dependencies": {
         "@emotion/core": "^10.0.0",
         "@emotion/react": "^11.1.4",
-        "@emotion/styled": "^11.0.0",
+        "@emotion/styled": "^10.0.27",
         "@projectstorm/react-diagrams": "^6.3.0",
         "closest": "0.0.1",
         "dagre": "^0.8.5",

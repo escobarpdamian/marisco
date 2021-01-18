@@ -21,27 +21,27 @@ const node1 = new DefaultNodeModel({
 node1.setPosition(100, 100);
 let port1 = node1.addOutPort('Out');
 
-// node 2
+// node 2;
 const node2 = new DefaultNodeModel({
-    name: 'Node 1',
+    name: 'Node 2',
     color: 'rgb(0,192,255)',
 });
-node2.setPosition(100,100);
-let port2 = node2.addOutPort('Out');
+node2.setPosition(300,100);
+let port2 = node2.addInPort('In');
 
-// const link = port1.link<DefaultLinkModel>(port2);
-// link.addLabel('Hello World!');
+const link = port1.link(port2);
+link.addLabel('Hello World!');
 
 
 const model = new DiagramModel();
-model.addAll(node1, node2);
+model.addAll(node1, node2, link);
 engine.setModel(model);
 
 export default class Componente extends Component {
 
     render() {
         return (
-            <CanvasWidget engine={engine} />
+            <CanvasWidget className="srd-demo-canvas" engine={engine} />
         );
     }
 }
