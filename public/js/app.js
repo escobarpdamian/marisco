@@ -75434,6 +75434,7 @@ var node1 = new _projectstorm_react_diagrams__WEBPACK_IMPORTED_MODULE_2__["Defau
   color: 'rgb(0,192,255)'
 });
 node1.setPosition(100, 100);
+node1.height;
 var port1 = node1.addOutPort('Out'); // node 2;
 
 var node2 = new _projectstorm_react_diagrams__WEBPACK_IMPORTED_MODULE_2__["DefaultNodeModel"]({

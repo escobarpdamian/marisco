@@ -19,6 +19,7 @@ const node1 = new DefaultNodeModel({
     color: 'rgb(0,192,255)',
 });
 node1.setPosition(100, 100);
+node1.height
 let port1 = node1.addOutPort('Out');
 
 // node 2;

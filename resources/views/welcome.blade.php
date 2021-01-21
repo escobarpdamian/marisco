@@ -80,10 +80,7 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    <div id="componente"></div>
-                    <script src="{{asset('js/app.js')}}" ></script>
-                </div>
+
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
